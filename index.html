@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<section id="one" class="main style1">
+  <div class="container">
+    <div class="row 150%">
+      <div class="6u 12u$(medium)">
+        <header class="major">
+          <h2><a href="/kangaroo-dash/" style="border:0px;">Kangaroo Dash - a jumping game</a></h2>
+        </header>
+        <p>Explore the world one jump at a time! Be prepared to some of the most intense fun available in Virtual Reality! By using a physically based movement scheme Kangaroo Dash puts you right in the action where you’ll dodge cars, ride the rapids and be chased by both fish and foe - and everything is controlled by your body!<br /><a href="/kangaroo-dash/">Read more</a></p>
+      </div>
+      <div class="6u$ 12u$(medium) important(medium)">
+
+        <div class="slider">
+          <img src="images/kangaroodash/cave.gif" />
+          <img src="images/kangaroodash/smashers.gif" />
+          <img src="images/kangaroodash/fish.gif" />
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--section id="one" class="main style1" style="padding-top:0px;">
+  <div class="container">
+    <div class="row 150%">
+      
+      <div class="6u$ 12u$(medium) important(medium)">
+        <span class="image fit"><img src="images/vbert.png" alt="" /></span>
+      </div>
+      <div class="6u 12u$(medium)" style="clear:none";>
+        <header class="major">
+          <h2>Mandatory secret project</h2>
+        </header>
+        <p>Stay tuned!</p>
+      </div>
+    </div>
+  </div>
+</section-->
+
+<section class="main style1 special" style="padding-top:0px;">
+  <div class="container">
+
+   <header class="major">
+            <h2><a href="/blog" style="border:0px;">Our blog - where we talk about VR and stuff</a></h2>
+          </header>
+    <div class="row 150%">
+    {% for post in site.posts limit:3 %}
+    
+      <div class="4u 12u$(medium)">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <span class="image fit" style="height:220px;overflow:hidden;"><img src="/images/{{ post.image }}" alt=""></span>
+          <h3 style="margin-bottom:0px;">{{ post.title }}</h3> 
+        </a>
+        <p style="text-align:center">{{ post.date | date: '%B %d, %Y' }}</p>
+        <p>{{ post.summary }}</p>
+      </div>
+     
+      {% endfor %}
+
+      <div class="12u 12u$(medium)">
+        <ul class="actions">
+          <li><a href="/blog/" class="button">Read more!</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  </section>

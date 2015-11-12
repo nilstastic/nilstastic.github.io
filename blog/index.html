@@ -1,0 +1,26 @@
+---
+layout: blog
+---
+
+<section class="main style1 special">
+  <div class="container">
+    <header class="major">
+      <h2>Welcome to our devblog!</h2>
+    </header>
+   
+    <div class="row 150%">
+    {% for post in site.posts %}
+    
+      <div class="4u 12u$(medium)">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <span class="image fit" style="height:220px;overflow:hidden;"><img src="/images/{{ post.image }}" alt=""></span>
+          <h3 style="margin-bottom:0px;">{{ post.title }}</h3> 
+        </a>
+        <p style="text-align:center">{{ post.date | date: '%B %d, %Y' }}</p>
+        <p>{{ post.summary }}</p>
+      </div>
+     
+      {% endfor %}
+    </div>
+  </div>
+</section>

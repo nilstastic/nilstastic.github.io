@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+  Photon by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header_small.html %}
+    
+    <section id="one" class="main style1">
+        <div class="container">
+          <div class="row 150%">
+            <div class="6u 12u$(medium)">
+              <header class="major">
+                <h2>{{ page.title }}</h2>
+              </header>
+
+              {{ content }}
+            </div>
+            <!-- images -->
+            <div class="6u$ 12u$(medium) important(medium)">
+            {% for img in page.images %}
+                <img class="mediumimg" src="{{img}}">
+            {% endfor %}
+            </div>
+          </div>
+        </div>
+      </section>
+
+   
+    
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
+
+</html>

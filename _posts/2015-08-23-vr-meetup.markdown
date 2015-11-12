@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      Stockholm virtual reality meetup
+date:       2015-08-23 10:36:14
+image:		meetup-7.jpg
+summary:    I've been meaning to participate in the Stockholm virtual reality meetup for as long as it has existed, but I've never gotten around to it. Most of the time I've just been too slow to register and the one time I got in I had to be a dad and do dad-stuff instead. But, this time I got in and managed to participate as well. So, what's this meetup stuff all about?
+categories: meetup
+---
+
+I've been meaning to participate in the Stockholm virtual reality meetup for as long as it has existed, but I've never gotten around to it. Most of the time I've just been too slow to register and the one time I got in I had to be a dad and do dad-stuff instead.
+
+But, this time I got in and managed to participate as well. So, what's this meetup stuff all about?
+
+## The meetup
+Since I haven't been to any other meetups I did not really know what to expect. I knew that there would be a few companies there that would showcase their work and my best guess was that the meetup would be a bit on the strict side, but boy was I wrong.
+
+<img src="/images/meetup-7.jpg" style="display:block;margin:10px 0 20px 0">
+When entering the Plan8 office I was hit by a whirlwind of people wearing HDMs while others were just talking amongst themselves. There were a few demo stations and I thought the best way to blend in was to try the available demos.
+
+### Mimerse
+The first thing I tried was an Oculus Rift application that is going to be used to cure arachnophobia. When entering the rift I found myself sitting by a desk in a well lit room. Every once in a while spiders would come crawling from different places in the room - some close and some far away. The spiders were really well animated and I would guess that if someone was really scared of spiders they would either rip the headset of or just feel really uncomfortable. When I asked William from [Mimerse](http://www.mimerse.com/) about the possibility for "spider rain" he pressed a button and a HUGE spider appeared in the room. Great fun!
+
+### Freedome
+[Freedome](http://freedome.se/) is a company based in my hometown Umeå. They are doing spherical video and are also doing work for real estate agents. The demo I got to try was a 360 movie of a concert with a band called 'Burn it to the ground'. Even though it was filmed in 16fps(?) everything looked very nice and it was quite a thrill to be back in Umeå for a few minutes. As usual with 360 video the best part was not watching the band but instead watching everything that was happening in the crowd.
+
+### Polydome
+The last thing I tried was a game from the recent VR Jam. Even though I had played it before I somehow appreciated it more when I was in a crowded room. The game/experience places you in a dome (made of polys) and lets you create music by shooting orbs at other objects. Going from the noisy meetup to the serene dome was very nice. I also got a chance to talk with Tor from [Plan8](http://plan8.se/) about developing VR applications which was nice. Unfortunately I forgot to ask him if they're going to Oculus Connect, but since there's only one plane going from Stockholm to LA fellow developers won't be hard to spot.
+
+### Demoing Kangaroo Dash
+The plan for the first meetup was to just hang around, checkout a few demos and perhaps see if anyone was going to Oculus Connect, but after trying out a few demos I felt comfortable enough to ask if 'anyone want to try a kangaroo game?'.
+
+And they did.
+
+The good thing with Kangaroo Dash is that the people playing it really stand out in a crowd. They jump, they scream (some of them) and some even smash plastic cups. So, instead of just going home I got to demo my game non stop until the battery ran out. Everyone seemed to really like it and it was a blast watching people who had played it go back to their friends, do a few jumps, and then have their friends walking over asking if they could try the game. Another nice thing was to see the smile on a persons face when they realize that the only thing they need to do is to jump.
+
+So, right now I can't wait for the next meetup when I'll be able to show people the rewritten from scratch good looking version of Kangaroo Dash.

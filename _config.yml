@@ -1,0 +1,20 @@
+# Site settings
+title: Photon Forge
+email: nils@photonforge.se
+description: > # this means to ignore newlines until "baseurl:"
+  Photon Forge! We like games and stuff!
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.photonforge.se" # the base hostname & protocol for your site
+
+# Usernames and social
+twitter_username: photonforgeteam
+github_username:  nilstastic
+
+# Tracking
+google_analytics: UA-64745407-1
+
+# Build settings
+markdown: kramdown
+#permalink:    pretty
+permalink: /blog/:categories/:year/:month/:day/:title

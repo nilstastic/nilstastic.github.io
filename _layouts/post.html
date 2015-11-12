@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+  Photon by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header_small.html %}
+    
+    <section id="one" class="main style1">
+        <div class="container">
+          <div class="row 150%">
+            <div class="8u 12u$(medium)">
+              <header class="major">
+                <h2>{{ page.title }}</h2>
+                <p>{{ page.date | date: '%B %d, %Y' }}</p>
+              </header>
+
+              {{ content }}
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
+
+</html>
+
+<!--div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div-->
+
