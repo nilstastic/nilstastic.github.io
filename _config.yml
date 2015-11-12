@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Photon Forge! We like games and stuff!
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.photonforge.se" # the base hostname & protocol for your site
+url: "http://nilstastic.github.io" # the base hostname & protocol for your site
 
 # Usernames and social
 twitter_username: photonforgeteam
