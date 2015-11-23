@@ -11,7 +11,7 @@ It’s been awhile since something revolutionized education as much as the Inter
 
 Virtual Reality.
 
-You might have already heard someone mention it or read about it on gaming websites,but gaming is only one part of what will make virtual reality change everything. Right now the content created for virtual reality can be put into two categories. They are either using 360 video or computer generated graphics.
+You might have already heard someone mention it or read about it on gaming websites, but gaming is only one part of what will make virtual reality change everything. Right now the content created for virtual reality can be put into two categories. They are either using 360 video or computer generated graphics.
 
 ###360 video
 When a user views 360 video they find themselves at the center of the action. They can look around in all directions which makes it possible to experience how it is to stand in a classroom in Africa or watch a concert from the stage.
