@@ -6,8 +6,11 @@
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<meta property="og:title" content="{% if page.title %}{{page.title }}{% else %}{{ site.title }}{% endif %}" />
+	<meta property="og:description" content="{% if page.summary %}{{page.summary }}{% else %}{{ site.description }}{% endif %}" />
+	<meta property="og:image" content="{% if page.image %}{{ '/images/'}}{{page.image }}{% else %}{{ site.ogimage }}{% endif %}" />
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="/assets/css/main.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
 </head>
